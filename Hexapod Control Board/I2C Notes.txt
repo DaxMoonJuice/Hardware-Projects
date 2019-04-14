@@ -1,0 +1,65 @@
+IC2 Debugging
+
+Arduino
+
+A4--Data Pin (SDA)
+
+A5- Clock Pin (SCL)
+
+ESP
+
+D1--Data Pin (SDA)----GPIO5
+D2--Clock Pin (SCL)---GPIO4
+
+
+When i2c var called as 
+
+master.i2c.readfrom()
+
+It works
+
+and subsequent
+
+master.readFromBus() calls work
+
+
+Yet when master.readFromBus() called directly
+
+It now works?
+
+WTF!
+
+process for it working
+
+import robot
+master=robot.masterI2C()
+master.readFromBus(8,6)
+
+
+
+Sensor Addresses
+
+Accelerometer --ADXl345 Address is 83
+
+
+Magnometer --0x1E --30
+
+
+
+
+
+
+Investigation 10th Feb
+
+Straight Pins
+
+I2C Addressed Found At 13
+I2C Addressed Found At 83
+I2C Address Found At 104
+
+
+Bent Pins
+
+I2C Addressed Found At 30
+I2C Addressed Found At 83
+I2C Address Found At 104

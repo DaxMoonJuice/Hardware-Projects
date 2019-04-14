@@ -1,0 +1,79 @@
+Pick the optin which will get results fastest
+
+Otherwise you will loose interest
+
+
+
+Why not just use a different protocol
+
+code has to be able to
+
+Send Strings From Esp8266 to Pro Mini
+
+Esp8266 to receive strings from Pro Mini
+
+
+Read Values Of Accelerometer,Gryo and Magnometer
+
+
+
+Options
+
+	
+	
+	File Contains Three Classes
+
+	One For Each Sensor Type
+
+		--Read up on IC2 Protocol
+
+	Take Python Code and port to Micropython--Probably doable--Just replace the SPI specific Functions with uPython
+
+	
+Project Objectives
+--learn more about
+
+	-uPython
+	-I2C/spi
+	-Classes
+	-Control Algorithims
+	-ESP8266
+
+
+Project Tasks
+
+--Send Commands To Robot Via Wifi
+
+--Functions To Move Quadraped--Done
+	--Forward
+	--Backward
+	--Rotation
+
+--Ability To Control 12 Servos --Done
+
+--Read The Raw Values For Following Sensor Data Using MicroPython
+
+	--Accelerometer--ADXL345
+	--Gyrocscope -- ITG-3200
+	--Magnometer --HMC5883L
+
+--Combine Sensor Data To Measure
+
+	--Orientation
+	--Direction Vector
+
+
+--Use IMU Data to Correct Course Via A Control Loop
+
+--Take Distance Readings Via HC-SRO4 Sensor
+
+
+Hardware Requirements
+
+--The Ability To Generate 12 PWM signals at once
+--IC2/SPI Bus
+--The Ability To Control A Futher 4 Digital Pins
+--3.3v logic level
+
+
+

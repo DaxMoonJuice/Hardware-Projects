@@ -1,0 +1,15 @@
+micropython board is reset
+
+server socket disconnects
+
+server socket disconnection handshake begins
+
+webrepl client still tries to communicate with server socket when user interacts and javascript runs
+
+input not accepted because Websocket is already in CLOSING or ClOSED State" 
+
+Eventually server socket reloads or client socket session expires or handler loads or something?
+
+Connect button now works properly because invalid session ended and new connection process can beging
+
+If you wait 5 seconds the socket resets and the terminal emulator works
